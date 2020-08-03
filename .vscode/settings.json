@@ -2,5 +2,5 @@
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_flask_sqlalchemy "
     ],
-    "python.pythonPath": "~/Desktop/alternateDesktop/alternateDesktop2/practiceCode/web/fullStack/wa3ia/API/bin/python3"
+    "python.pythonPath": "/home/ahmed/Desktop/alternateDesktop/alternateDesktop2/practiceCode/web/fullStack/wa3ia/API/bin/python3"
 }
