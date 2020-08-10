@@ -112,6 +112,7 @@ The API will return three error types when requests fail:
 ```
 <hr/>
 
+## currently not available online
 ### **POST**  '/api/prediction'
 #### - use your mamogram to detect your case
 
