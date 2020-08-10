@@ -5,6 +5,8 @@ from flask import (render_template,
                    )
 from app import app
 
+from flask_cors import cross_origin
+
 # from IPython.display import display  # Allows the use of display() for DataFrames
 
 # import numpy as np
@@ -32,6 +34,7 @@ from .sayed_api import base64Con
 
 
 @app.route('/api/prediction', methods=['POST'])
+@cross_origin()
 def predictPostCategory():
 
     data = request.get_json()
@@ -101,6 +104,7 @@ def predictPostCategory():
 
 
 @app.route('/api/diagnosis', methods=['POST'])
+@cross_origin()
 def diagnosis():
     
     data = request.get_json()
@@ -144,6 +148,7 @@ def diagnosis():
 
 
 @app.route('/api/risk', methods=['POST'])
+@cross_origin()
 def risk():
     
     data = request.get_json()
