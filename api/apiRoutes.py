@@ -30,7 +30,6 @@ import pickle
 from joblib import load, dump
 
 
-from .sayed_api import base64Con
 
 
 @app.route('/api/prediction', methods=['POST'])
