@@ -1,5 +1,5 @@
 from flask import jsonify
-from app import app
+from init import app
 # from .auth import AuthError
 
 
